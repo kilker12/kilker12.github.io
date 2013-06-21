@@ -39,22 +39,24 @@
 
 <p>Some features of the HomeRemote software are below, and remember, there will always be more to come!</p>
 
-<p><strong>Web-based Control Interface</strong>
+<p><strong>Web-based Control Interface (Done)</strong>
 A crafty, sleek, and easy to use interface that (for now) is your means of setting up and controlling all aspects of your home system.</p>
 
-<p><strong>Lights</strong>
+<p><strong>Lights (Done)</strong>
 Control lights all around your house. With a relay board hooked up to your Raspberry Pi, you can setup lights which can be toggled on or off at a certain time, by switches, or other simple conditions</p>
 
-<p><strong>Advanced Event System</strong>
+<p><strong>Advanced Event System (Mostly done)</strong>
 Custom events that complete actions when a certain condition is met. Turn off a light at 5:00 AM, toggle a light on for a certain amount of time when a motion sensor is tripped, or disable another event when its bedtime. It makes you not have to worry about forgetting to turn on your porch light before you leave.</p>
 
-<p><strong>Security System</strong>
+<p><strong>Security System (Work in progress)</strong>
 With two modes of operation, arm your alarm system for when you leave the house, or when you go to bed at night. With configurable settings such as alarm delays, arming delays, and calling your cell phone, you can remove the worry of a burglar breaking into your home.</p>
 
-<p><strong>Climate Control</strong>
+<p><strong>Climate Control (Yet to start)</strong>
 Annoyed with always adjusting your thermostat to the comfortable temperature? Set up a custom cooling temperature for when it gets to hot, or a heating temperature when it gets to cold. </p>
 
 <p>Now all this sounds great right? Unfortunately I am a one man crew so it takes time to roll out these features. But they ARE coming! See the changelogs and to-dos for what I'm working on/have added.</p>
+
+<p>Very advanced things will be added such as Raspberry Pi based touch-screen consoles which can control everything, multi-room audio, custom breakout board, etc.</p>
 
 <h3>
 <a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h3>
@@ -62,9 +64,24 @@ Annoyed with always adjusting your thermostat to the comfortable temperature? Se
 <p>Documentation is being worked on right now. I am going to catch up with where I am on the coding end before I start adding new features. But this shouldn't take long.</p>
 
 <h3>
+<a name="to-do" class="anchor" href="#to-do"><span class="octicon octicon-link"></span></a>To-Do</h3>
+
+<ul>
+<li>Finish security</li>
+<li>Create "helper" script which creates redundancy so if something crashes it can be restarted autonomously</li>
+<li>Start on climate control (need sensors first)</li>
+<li>Create break-out board for easy to setup connections; try to be as low-cost as possible (non-profit)</li>
+<li>Clean up the code IMMENSELY (I'm no professional Python programmer)</li>
+<li>More stuff that I cant think of atm</li>
+</ul><h3>
+<a name="contributions" class="anchor" href="#contributions"><span class="octicon octicon-link"></span></a>Contributions</h3>
+
+<p>I am a 17 year old amateur programmer who loves making stuff work. Ive learned 8 languages over the past 2 1/2 years and would like to continue on my whole life. If you would like to contribute to my education of any languages used in this project, please please <strong>please</strong> contact me and let me know what I can do to become better. </p>
+
+<h3>
 <a name="download" class="anchor" href="#download"><span class="octicon octicon-link"></span></a>Download</h3>
 
-<p>Download of this project is separated into two pieces: the server side software which is what actually runs everything, and the web interface which is used to control everything.</p>
+<p>Download of this project is separated into two pieces: the server side software which is what actually runs everything, and the web interface which is used to control everything. Instructions for installation will be provided soon. Its off to work for now...</p>
 
 <p>Server-side:
 <a href="https://github.com/kilker12/HomeRemoteServer">https://github.com/kilker12/HomeRemoteServer</a></p>
@@ -81,7 +98,17 @@ Annoyed with always adjusting your thermostat to the comfortable temperature? Se
       </footer>
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-41915870-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
 
   </body>
 </html>
